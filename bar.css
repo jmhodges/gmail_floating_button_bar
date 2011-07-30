@@ -1,3 +1,5 @@
+/* Do not set the style attribute on any div that uses this class. It is
+overridden by the javascript to make scrolling work. */
 .button_bar {
   position:relative; /* required */
   height:50px; /* required */
