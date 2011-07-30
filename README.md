@@ -3,7 +3,7 @@ after that.
 
 # How the Gmail floating button bar works
 
-This is an implementation of the Gmail floating (pinned) button bar. You can
+This is an implementation of the Gmail floating button bar. You can
 see the Gmail version in action by clicking on an email thread in it, and
 watching the Archive button as you scroll down the page.
 
