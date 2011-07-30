@@ -18,9 +18,8 @@ Instead, this implementation reverse engineers what Gmail itself does. And by
 "reverse engineers", I definitely mean "cargo cults".
 
 The first trick is that when the user scrolls down past where the button bar
-was original rendered,
-Gmail will insert a div of the *same height* as the button bar before the
-button bar but within its container. 
+was original rendered, Gmail will insert a div before the button bar that has
+the *same height* as the button bar.
 
 At that same time, it also sets the `style` attribute to
 "position:fixed!important; top:0px;" on the button bar div in order to make it
