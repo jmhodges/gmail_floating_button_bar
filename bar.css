@@ -1,0 +1,8 @@
+.button_bar {
+  position:relative; /* required */
+  height:50px; /* required */
+  background-color:f0f;
+}
+.above_button_bar {
+  height:50px; /* must be the same height as .button_bar */
+}
