@@ -1,7 +1,10 @@
-Toby, Ian: I go into detail below, but I'll start with the questions I have:
+Hey, Toby, Ian, Ted. I go into detail below, but I'll start with the questions I have:
 
 1. Do you have any idea why the element insertion makes this work
 2. Why does setting the style attribute work but adding a class with the same CSS not?
+3. Why is the width (possibly the left?) of the button bar div reset by the
+browser when you scroll, forcing the implementation to include the original
+width and left in the style attribute? (May be because of the div insertion?)
 
 # How the Gmail floating button bar works
 
