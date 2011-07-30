@@ -8,13 +8,14 @@ $(document).ready(function () {
 
   // the width and left will change on you when you scroll unless you specify
   // them back on in the style attribute. I'm not actually completely positive
-  // of that, but It's What Gmail Does. Sorry. :(
+  // that the left changes (the width definitely does), but It's What Gmail
+  // Does. Sorry. :(
   var scrolledStyle = 'position:fixed!important; top:0px; width: '+originalWidth.toString(10) +'px; '+originalLeft.toString(10)+'px;';
 
   $(window).scroll(function(){
-    /* Get the current distance of the element from the top */
+    // Get the current distance of the element from the top
     var offsetTop = $buttonBar.offset().top;
-    /* Get distance from the top of window through which we have scrolled */
+    // Get distance from the top of window through which we have scrolled
     var s = parseInt($(window).scrollTop(), 10);
     var fixMe = true;
 
