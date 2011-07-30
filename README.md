@@ -20,7 +20,7 @@ that implementation relies heavily on the button bar having
 really work out for a whole lot of uses cases.
 
 Instead, this implementation reverse engineers what Gmail itself does. And by
-"reverse engineers", I definitely mean cargo cults.
+"reverse engineers", I definitely mean "cargo cults".
 
 The first trick is that when the user scrolls down past where the button bar
 was original rendered,
