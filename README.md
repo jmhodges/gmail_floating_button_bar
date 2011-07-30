@@ -4,8 +4,8 @@ after that.
 # How the Gmail floating button bar works
 
 This is an implementation of the Gmail floating (pinned) button bar. You can
-the Gmail version by clicking on an email thread, watching the Archive button,
-and scrolling down.
+see the Gmail version in action by clicking on an email thread in it, and
+watching the Archive button as you scroll down the page.
 
 The original bones of the first implementation in jquery are from [webspeaks
 jquery
