@@ -17,7 +17,6 @@ $(document).ready(function () {
     var offsetTop = $buttonBar.offset().top;
     // Get distance from the top of window through which we have scrolled
     var s = parseInt($(window).scrollTop(), 10);
-    var fixMe = true;
 
     if(s > offsetTop){
       // Somehow, inserting an item of the same height makes this work.
