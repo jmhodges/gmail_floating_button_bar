@@ -14,17 +14,17 @@ that implementation relies heavily on the button bar having
 `position:absolute` and the `top` attributes set in its CSS. This doesn't
 really work out for a whole lot of uses cases.
 
-Instead, this implementation reverse engineers what Gmail itself does. And by
-"reverse engineers", I definitely mean "cargo cults".
+Instead, this implementation is a reverse engineering of what Gmail itself
+does. And by "reverse engineering", I definitely mean "cargo-culting".
 
 The first trick is that when the user scrolls down past where the button bar
 was original rendered, Gmail will insert a div before the button bar that has
 the *same height* as the button bar.
 
 At that same time, it also sets the `style` attribute to
-"position:fixed!important; top:0px;" on the button bar div in order to make it
-scroll down with the user at the top of the browser window. Browers also seem
-to reset the width of the button bar div when you do this, so the `style`
+`"position:fixed!important; top:0px;"` on the button bar div in order to make
+it scroll down with the user at the top of the browser window. Browers also
+seem to reset the width of the button bar div when you do this, so the `style`
 attribute is set back to original width of the div before the scrolling is
 crucial. Gmail also sets the original left back on the div (which this
 implementation does as well) but I haven't found the case where this is
